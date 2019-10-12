@@ -1,0 +1,9 @@
+---
+# tasks file for ansible
+- name: ansible galaxy
+  hosts: all
+  sudo: true
+  roles:
+    - {
+        role: geerlingguy.apache
+    }
