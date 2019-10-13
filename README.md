@@ -6,9 +6,12 @@
 $ ansible-galaxy init DIR_NAME
 ```
 
-# install apache galaxy
+# install some galaxy
 ```bash
 $ ansible-galaxy install geerlingguy.apache
 
+$ ansible-galaxy install grog.user
+
+$
 ```
 
