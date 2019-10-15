@@ -3,4 +3,5 @@ terraform.*
 .terraform*
 venv/
 .vscode/
-ansible/inventor*
+__*
+.pytest*

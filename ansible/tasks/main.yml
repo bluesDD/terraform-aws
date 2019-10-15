@@ -2,8 +2,8 @@
 # tasks file for ansible
 - name: ansible galaxy
   hosts: all
-  sudo: true
+  become: true
   roles:
-    - {
-        role: geerlingguy.apache
-    }
+#    - geerlingguy.apache 
+    - GROG.user
+    - GROG.authorized-key

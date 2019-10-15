@@ -1,2 +1,9 @@
 ---
 # defaults file for ansible
+user_list:
+  - name: user1
+  - name: user2
+    uid: 1001
+    groups:
+      - test
+      - sudo
