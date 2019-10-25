@@ -24,3 +24,21 @@ $ ansible-galaxy install grog.authorized-key
 ```
 $ py.test -v --connection=ansible --ansible-inventory=ansible/inventory  test_infra.py --connection=ansible
 ```
+
+
+絵文字commit
+✨ :sparkles:	新規機能追加
+📝 :memo:	ドキュメント追加
+🔉 :sound:	ログ追加
+✅ :white_check_mark:	テストの追加
+👍 :+1:	機能修正
+🚀 :rocket:	パフォーマンス改善
+👮 :cop:	セキュリティ関連の改善
+✏️ :pencil2:	タイポなどの修正
+🎨 :art:	リファクタリング
+🚧 :construction:	コメントアウトなど
+🔥 :fire:	ファイル削除
+🔇 :mute:	ログ削除
+🐛 :bug:	バグ修正
+🔖 :bookmark:	バージョンアップ
+🎉 :tada:	イニシャルコミット
