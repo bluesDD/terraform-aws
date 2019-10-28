@@ -26,7 +26,6 @@ $ py.test -v --connection=ansible --ansible-inventory=ansible/inventory  test_in
 ```
 
 
-絵文字commit
 ✨ :sparkles:	新規機能追加
 📝 :memo:	ドキュメント追加
 🔉 :sound:	ログ追加
