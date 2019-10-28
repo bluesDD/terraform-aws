@@ -20,7 +20,7 @@ $ ansible-galaxy install grog.user
 $ ansible-galaxy install grog.authorized-key
 ```
 
-# exexute test
+# exexute 
 ```
 $ py.test -v --connection=ansible --ansible-inventory=ansible/inventory  test_infra.py --connection=ansible
 ```
