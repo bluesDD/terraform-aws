@@ -4,6 +4,6 @@
   hosts: all
   become: true
   roles:
-#    - geerlingguy.apache 
-    - GROG.user
-    - GROG.authorized-key
+    - geerlingguy.apache 
+#    - GROG.user
+#    - GROG.authorized-key

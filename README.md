@@ -20,13 +20,12 @@ $ ansible-galaxy install grog.user
 $ ansible-galaxy install grog.authorized-key
 ```
 
-# exexute test
+# exex
 ```
 $ py.test -v --connection=ansible --ansible-inventory=ansible/inventory  test_infra.py --connection=ansible
 ```
 
 
-絵文字commit
 ✨ :sparkles:	新規機能追加
 📝 :memo:	ドキュメント追加
 🔉 :sound:	ログ追加
