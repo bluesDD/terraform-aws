@@ -2,21 +2,6 @@ AWSTemplateFormatVersion: "2010-09-09"
 Description:
   S3 Bucket for ELB AccessLog Create
 
-Metadata:
-  "AWS::CloudFormation::Interface":
-    ParameterGroups:
-      - Label: 
-          default: "S3 Bucket for ELB AccessLog Configuration"
-        Parameters: 
-          - ELBLogBucketName
-
-    ParameterLabels: 
-      ELBLogBucketName: 
-        default: "ELBLogBucketName"
-
-# ------------------------------------------------------------#
-# Input Parameters
-# ------------------------------------------------------------# 
 Parameters:
   ELBLogBucketName:
     Type: String
